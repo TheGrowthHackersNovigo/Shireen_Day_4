@@ -179,15 +179,6 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <ui:LogMessage sap2010:Annotation.AnnotationText="Displaying the result for Input2" DisplayName="Log Message :Displaying the result for Input2" sap:VirtualizedContainerService.HintSize="354,102.66666666666667" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[RegexMatch2]">
-      <sap:WorkflowViewStateService.ViewState>
-        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-        </scg:Dictionary>
-      </sap:WorkflowViewStateService.ViewState>
-    </ui:LogMessage>
     <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" sap2010:Annotation.AnnotationText="Displaying the result for Input2" AutoCloseAfter="00:00:00" DisplayName="Message Box : Displaying the result for Input2" sap:VirtualizedContainerService.HintSize="354,88" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Customer id for the input &quot;+Input2+&quot; is &quot;+RegexMatch2]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -197,6 +188,15 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:MessageBox>
+    <ui:LogMessage sap2010:Annotation.AnnotationText="Displaying the result for Input2" DisplayName="Log Message :Displaying the result for Input2" sap:VirtualizedContainerService.HintSize="354,102.66666666666667" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[RegexMatch2]">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:LogMessage>
     <ui:LogMessage sap2010:Annotation.AnnotationText="Process Completed" DisplayName="Log Message :Process Completed" sap:VirtualizedContainerService.HintSize="354,78.66666666666667" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Process Completed&quot;]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
